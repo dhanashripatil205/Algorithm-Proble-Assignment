@@ -4,7 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            InsertionSort.DisplayInsertionSort();
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.DisplayBubbleSort();
 
         }
 
