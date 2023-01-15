@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SortingTechniques
 {
-    public class PermutationOfStringUsingRecursiveMethod
+    public class PermutationOfStringUsingRecursiveApproach
     {
         public static void RecursiveApproach(String str, String answer)
         {
@@ -27,9 +27,3 @@ namespace SortingTechniques
         }
     }
 }
-
-
-
-    
-    
-
