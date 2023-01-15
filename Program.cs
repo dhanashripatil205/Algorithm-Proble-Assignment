@@ -4,10 +4,12 @@
     {
         public static void Main(string[] args)
         {
-            String str = "CAT";
-            int n = str.Length;
+            String s = "ABC";
+            String answer = "";
+
             Console.Write("\nAll possible strings are : ");
-            PermutationOfStringUsingIterativeMethod.usingIterativeMethod(str, 0, n - 1);
+            PermutationOfStringUsingRecursiveMethod.RecursiveApproach(s, answer);
+
         }
     }
 }
