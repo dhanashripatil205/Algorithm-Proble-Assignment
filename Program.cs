@@ -4,11 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            String s = "ABC";
-            String answer = "";
-
-            Console.Write("\nAll possible strings are : ");
-            PermutationOfStringUsingRecursiveMethod.RecursiveApproach(s, answer);
+            SearchTheWordFromWordList d = new SearchTheWordFromWordList();
+            d.List();
+            Console.WriteLine("\nEnter word do you want to search : ");
+            string Word = Console.ReadLine();
+            d.Searching(Word);
 
         }
     }
