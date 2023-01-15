@@ -4,7 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("***** Welcome to permutations of a String using iterative method and Recursion method. *****");
+            String str = "CAT";
+            int n = str.Length;
+            Console.Write("\nAll possible strings are : ");
+            PermutationOfStringUsingIterativeMethod.usingIterativeMethod(str, 0, n - 1);
         }
     }
 }
