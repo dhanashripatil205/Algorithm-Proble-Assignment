@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Anagram.DisplayAnagram();
+            PrimeNoInGIvenRange.FindPrimeNo();
 
         }
 
